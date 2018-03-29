@@ -1,19 +1,15 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
+# Author 	: Mixenitup#######################################################################################
+##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+#sudo pacman -Sy
+sudo pacman -Sy xorg xorg-xinit
 
-echo "Installing category System"
-
-
-sudo pacman -S --noconfirm --needed htop
-sudo pacman -S --noconfirm --needed net-tools
-#sudo pacman -S --noconfirm --needed notify-osd
-sudo pacman -S --noconfirm --needed noto-fonts
-#sudo pacman -S --noconfirm --needed 
 echo "################################################################"
 echo "###################    installation done     ######################"
 echo "################################################################"

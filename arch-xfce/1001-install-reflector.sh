@@ -8,7 +8,7 @@
 #
 ##################################################################################################################
 sudo pacman -Sy
-sudo pacman -S reflector
+sudo pacman -S reflector --noconfirm --needed
 sudo reflector --verbose -l 5 --sort rate --save /etc/pacman.d/mirrorlist
 
 echo "################################################################"

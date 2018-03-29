@@ -23,4 +23,4 @@ sudo systemctl set-default graphical.target
 echo "Remove anything you do not like from the installed applications"
 
 #sudo pacman -R ...
-#sudo pacman -R xfce4-artwork --noconfirm
+sudo pacman -R xfce4-artwork --noconfirm
